@@ -5,7 +5,8 @@
     "quantity": "40",
     "status": "Rejected",
     "status_type": "bg-danger",
-    "amount": "$40,570"
+    "amount": "$40,570",
+    "document": "https://example.com/doc1.pdf"
   },
   {
     "id": "84564786",
@@ -13,7 +14,8 @@
     "quantity": "300",
     "status": "Pending",
     "status_type": "bg-warning",
-    "amount": "$180,139"
+    "amount": "$180,139",
+    "document": "https://example.com/doc1.pdf"
   },
   {
     "id": "84564522",
@@ -21,7 +23,8 @@
     "quantity": "355",
     "status": "Approved",
     "status_type": "bg-success",
-    "amount": "$50,139"
+    "amount": "$50,139",
+    "document": "https://example.com/doc1.pdf"
   },
   {
     "id": "84564564",
@@ -29,7 +32,8 @@
     "quantity": "40",
     "status": "Rejected",
     "status_type": "bg-danger",
-    "amount": "$40,570"
+    "amount": "$40,570",
+    "document": "https://example.com/doc1.pdf"
   },
   {
     "id": "84564786",
@@ -37,7 +41,8 @@
     "quantity": "300",
     "status": "Pending",
     "status_type": "bg-warning",
-    "amount": "$180,139"
+    "amount": "$180,139",
+    "document": "https://example.com/doc1.pdf"
   },
   {
     "id": "84564522",
@@ -45,7 +50,8 @@
     "quantity": "355",
     "status": "Approved",
     "status_type": "bg-success",
-    "amount": "$50,139"
+    "amount": "$50,139",
+    "document": "https://example.com/doc1.pdf"
   },
   {
     "id": "84564564",
@@ -53,7 +59,8 @@
     "quantity": "40",
     "status": "Rejected",
     "status_type": "bg-danger",
-    "amount": "$40,570"
+    "amount": "$40,570",
+    "document": "https://example.com/doc1.pdf"
   },
   {
     "id": "84564786",
@@ -61,7 +68,8 @@
     "quantity": "300",
     "status": "Pending",
     "status_type": "bg-warning",
-    "amount": "$180,139"
+    "amount": "$180,139",
+    "document": "https://example.com/doc1.pdf"
   },
   {
     "id": "84564522",
@@ -69,7 +77,8 @@
     "quantity": "355",
     "status": "Approved",
     "status_type": "bg-success",
-    "amount": "$50,139"
+    "amount": "$50,139",
+    "document": "https://example.com/doc1.pdf"
   },
   {
     "id": "84564786",
@@ -77,6 +86,7 @@
     "quantity": "300",
     "status": "Pending",
     "status_type": "bg-warning",
-    "amount": "$180,139"
+    "amount": "$180,139",
+    "document": "https://example.com/doc1.pdf"
   }
 ]

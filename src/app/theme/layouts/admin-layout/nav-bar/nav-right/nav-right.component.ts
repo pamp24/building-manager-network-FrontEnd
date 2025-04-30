@@ -70,34 +70,34 @@ export class NavRightComponent {
   profile = [
     {
       icon: 'edit',
-      title: 'Edit Profile'
+      title: 'Επεξεργασία Προφίλ'
     },
     {
       icon: 'user',
-      title: 'View Profile'
+      title: 'Εμφάνιση Προφίλ'
     },
     {
       icon: 'profile',
-      title: 'Social Profile'
+      title: 'Προφίλ'
     },
     {
       icon: 'wallet',
-      title: 'Billing'
+      title: 'Πολυκατοικία'
     }
   ];
 
   setting = [
     {
       icon: 'question-circle',
-      title: 'Support'
+      title: 'Υποστήριξη'
     },
     {
       icon: 'user',
-      title: 'Account Settings'
+      title: 'Επικοινωνία'
     },
     {
       icon: 'lock',
-      title: 'Privacy Center'
+      title: 'Ασφάλεια'
     },
     {
       icon: 'comment',
@@ -105,7 +105,7 @@ export class NavRightComponent {
     },
     {
       icon: 'unordered-list',
-      title: 'History'
+      title: 'Ιστορικό'
     }
   ];
 }

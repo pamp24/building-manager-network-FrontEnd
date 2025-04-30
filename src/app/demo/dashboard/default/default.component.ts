@@ -41,7 +41,7 @@ export class DefaultComponent {
 
   AnalyticEcommerce = [
     {
-      title: 'Total Page Views',
+      title: 'Συνολικό Μηνιαίο Ποσό Πολυκατοικίας',
       amount: '4,42,236',
       background: 'bg-light-primary ',
       border: 'border-primary',
@@ -51,7 +51,7 @@ export class DefaultComponent {
       number: '35,000'
     },
     {
-      title: 'Total Users',
+      title: 'Συνολικό Μηνιαίο Ποσό Ενοίκου',
       amount: '78,250',
       background: 'bg-light-primary ',
       border: 'border-primary',
@@ -61,7 +61,7 @@ export class DefaultComponent {
       number: '8,900'
     },
     {
-      title: 'Total Order',
+      title: 'Συνολικό Μηνιαίο Ποσό Ιδιοκτήτη',
       amount: '18,800',
       background: 'bg-light-warning ',
       border: 'border-warning',
@@ -71,7 +71,7 @@ export class DefaultComponent {
       number: '1,943'
     },
     {
-      title: 'Total Sales',
+      title: 'Πληρωμή Εώς',
       amount: '$35,078',
       background: 'bg-light-warning ',
       border: 'border-warning',
@@ -85,25 +85,25 @@ export class DefaultComponent {
   transaction = [
     {
       background: 'text-success bg-light-success',
-      icon: 'gift',
-      title: 'Order #002434',
-      time: 'Today, 2:00 AM',
+      icon: 'setting',
+      title: 'Ιανουάριος ',
+      time: 'Δευτέρα, 2:00 AM 01/01/2025',
       amount: '+ $1,430',
       percentage: '78%'
     },
     {
       background: 'text-primary bg-light-primary',
-      icon: 'message',
-      title: 'Order #984947',
-      time: '5 August, 1:45 PM',
+      icon: 'setting',
+      title: 'Απρίλιος ',
+      time: 'Πέμπτη, 5:00 AM 05/02/2025',
       amount: '- $302',
       percentage: '8%'
     },
     {
       background: 'text-danger bg-light-danger',
       icon: 'setting',
-      title: 'Order #988784',
-      time: '7 hours ago',
+      title: 'Μάρτιος',
+      time: 'Κυριακή, 1:00 PM 03/03/2025',
       amount: '- $682',
       percentage: '16%'
     }

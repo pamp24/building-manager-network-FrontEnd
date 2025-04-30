@@ -15,4 +15,8 @@ It allows apartment residents to view and pay their share of building expenses o
 
 This repository contains only the frontend part of the application.
 The backend (Spring Boot / Java 21) is hosted in a separate repository:
+<<<<<<< HEAD
 building-manager-network-BackEnd
+=======
+building-manager-network-BackEnd
+>>>>>>> 7a9d83a (Second-Commit)

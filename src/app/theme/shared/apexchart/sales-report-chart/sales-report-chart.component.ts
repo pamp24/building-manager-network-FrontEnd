@@ -62,11 +62,11 @@ export class SalesReportChartComponent {
       },
       series: [
         {
-          name: 'Net Profit',
+          name: 'Ατομική/Ώρες',
           data: [180, 90, 135, 114, 120, 145]
         },
         {
-          name: 'Revenue',
+          name: 'Μπόιλερ/Ώρες',
           data: [120, 45, 78, 150, 168, 99]
         }
       ],

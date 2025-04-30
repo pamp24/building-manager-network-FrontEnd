@@ -26,17 +26,18 @@
   </div>
 
   <div class="col-md-12 col-xl-8">
-    <h5 class="mb-3">Recent Orders</h5>
+    <h5 class="mb-3">Κατηγορίες Εξόδων</h5>
     <div class="card tbl-card">
       <div class="table-responsive">
         <table class="table table-hover mb-0">
           <thead>
             <tr>
-              <th>TRACKING NO.</th>
-              <th>PRODUCT NAME</th>
-              <th>STATUS</th>
-              <th class="text-end">TOTAL ORDER</th>
-              <th class="text-end">TOTAL AMOUNT</th>
+              <th>Κατηγορία</th>
+              <th>Είδος</th>
+              <th>Status</th>
+              <th class="text-end">Συνολικό Ποσό</th>
+              <th class="text-end">Ποσό Διαμερίσματος</th>
+              <th class="text-end">Έγγραφο</th>
             </tr>
           </thead>
           <tbody>
@@ -54,6 +55,12 @@
                 </td>
                 <td class="text-end">{{ order.quantity }}</td>
                 <td class="text-end">{{ order.amount }}</td>
+                <td class="text-end">
+                  <a href="javascript:" class="btn btn-sm btn-primary">
+                    <i antIcon type="file" theme="outline"></i>
+                    <span class="d-none d-sm-inline-block">Έγγραφο</span>
+                  </a>
+                </td>
               </tr>
             }
           </tbody>
@@ -69,7 +76,7 @@
     <app-sales-report-chart />
   </div>
   <div class="col-md-12 col-xl-4">
-    <h5 class="mb-3">Transaction History</h5>
+    <h5 class="mb-3">Ιστορικό Πληρωμών</h5>
     <div class="card">
       <div class="list-group list-group-flush">
         @for (history of transaction; track history) {
@@ -97,8 +104,8 @@
       <div class="card-body">
         <div class="row justify-content-between">
           <div class="col-auto">
-            <h5>Help & Support Chat</h5>
-            <p class="mb-3">Typical replay within 5 min</p>
+            <h5>Βοήθεια και Υποστήριξη</h5>
+            <p class="mb-3">Απάντηση εντός 10 λεπτών</p>
           </div>
           <div class="col-auto">
             <div class="user-group mb-3">
@@ -109,7 +116,7 @@
           </div>
         </div>
         <div class="d-grid">
-          <div class="btn btn-primary">Need Help?</div>
+          <div class="btn btn-primary">Χρειάζεστε Βοήθεια;</div>
         </div>
       </div>
     </div>

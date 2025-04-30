@@ -40,7 +40,7 @@ export class IncomeOverviewChartComponent implements OnInit {
       },
       series: [
         {
-          data: [80, 95, 70, 42, 65, 55, 78]
+          data: [8000, 9500, 7000, 4200, 6500, 5500, 7800, 9000, 6000, 8500, 7200, 4800]
         }
       ],
       stroke: {
@@ -48,7 +48,7 @@ export class IncomeOverviewChartComponent implements OnInit {
         width: 2
       },
       xaxis: {
-        categories: ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'],
+        categories: ['Ιαν', 'Φεβ', 'Μάρ', 'Απρ', 'Μάι', 'Ιούν', 'Ιούλ', 'Αύγ', 'Σεπτ', 'Οκτ', 'Νοέμ', 'Δεκ'],
         axisBorder: {
           show: false
         },
@@ -57,7 +57,7 @@ export class IncomeOverviewChartComponent implements OnInit {
         },
         labels: {
           style: {
-            colors: ['#8c8c8c', '#8c8c8c', '#8c8c8c', '#8c8c8c', '#8c8c8c', '#8c8c8c', '#8c8c8c']
+            colors: ['#8c8c8c', '#8c8c8c', '#8c8c8c', '#8c8c8c', '#8c8c8c', '#8c8c8c', '#8c8c8c', '#8c8c8c', '#8c8c8c', '#8c8c8c', '#8c8c8c', '#8c8c8c', ]
           }
         }
       },
