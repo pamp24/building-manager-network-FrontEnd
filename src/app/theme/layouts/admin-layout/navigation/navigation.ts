@@ -21,13 +21,13 @@ export interface NavigationItem {
 export const NavigationItems: NavigationItem[] = [
   {
     id: 'dashboard',
-    title: 'Dashboard',
+    title: 'Διαχείριση',
     type: 'group',
     icon: 'icon-navigation',
     children: [
       {
         id: 'default',
-        title: 'Default',
+        title: 'Πίνακας Ελέγχου',
         type: 'item',
         classes: 'nav-item',
         url: '/dashboard/default',
@@ -44,7 +44,7 @@ export const NavigationItems: NavigationItem[] = [
     children: [
       {
         id: 'login',
-        title: 'Login',
+        title: 'Είοσοδος',
         type: 'item',
         classes: 'nav-item',
         url: '/login',
@@ -54,7 +54,7 @@ export const NavigationItems: NavigationItem[] = [
       },
       {
         id: 'register',
-        title: 'Register',
+        title: 'Εγγραφή',
         type: 'item',
         classes: 'nav-item',
         url: '/register',

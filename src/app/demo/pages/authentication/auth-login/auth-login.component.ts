@@ -9,6 +9,23 @@ import { RouterModule } from '@angular/router';
   styleUrl: './auth-login.component.scss'
 })
 export class AuthLoginComponent {
+  
+  constructor() {
+    private router: Router,
+    private authService: AuthenticationService,
+    
+  }
+
+  
+  authRequest: AuthenticationRequest = {email: '', password: ''};
+  errorMsg: Array<string> = [];
+
+  login() {
+
+  }
+
+
+
   // public method
   SignInOptions = [
     {

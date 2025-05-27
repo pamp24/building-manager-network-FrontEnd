@@ -9,6 +9,11 @@ import { RouterModule } from '@angular/router';
   styleUrl: './auth-register.component.scss'
 })
 export class AuthRegisterComponent {
+
+
+
+
+
   // public method
   SignUpOptions = [
     {
